@@ -37,9 +37,9 @@ github:- https://github.com/Hacker2425              Instagram:- https://instagra
 
 
         ╔──────────────────────────────────────────────╗
-        |                   LeoFi                      |
-        |                 Hack Wifi                    |
-        |         Tool Coded by @Nikhil                | 
+        |                  LeoFi                       |
+        |             Bruteforcing tool                |
+        |          Tool Coded by @Nikhil               | 
         ┖──────────────────────────────────────────────┙
         [1] Bruteforce Zip File              
         [2] BruteForce Rar File
