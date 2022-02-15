@@ -20,6 +20,7 @@ git clone https://github.com/Hacker2425/Leofi
 
 cd Leofi
 
+apt install python3
 
 bash install.sh
 
