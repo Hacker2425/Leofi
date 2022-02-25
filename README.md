@@ -22,7 +22,9 @@ cd Leofi
 
 apt install python3
 
-bash install.sh
+chmod +x installer.sh
+
+bash installer.sh
 
 
 python3 LeoFi.py
