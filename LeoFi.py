@@ -55,8 +55,7 @@ github:- https://github.com/Hacker2425              Instagram:- https://instagra
         ┖──────────────────────────────────────────────┙
         [1] Bruteforce Zip File              
         [2] BruteForce Rar File
-        [3] BruteForce Cap File (Aircrack-ng)       
-        [4] BruteForce Office File                     
+        [3] BruteForce Cap File (Aircrack-ng)                   
         [e] Exit                
 """)
 
@@ -91,15 +90,15 @@ elif choice == '3':
     cap = 'aircrack-ng -w passwords.txt '+ my +''
     os.system(cap)
 
-elif choice == '4':
-    office = input("Path of office File :- ")
-    print("Path to office File :- "+office)
+#elif choice == '4':
+  #  office = input("Path of office File :- ")
+  #  print("Path to office File :- "+office)
 
-    attack = 'python3 office2john.py'+ office +'> attack.txt'
-    os.system(attack)
-    attack1 = 'python3 office2john.py attack.txt --wordlist=password.txt'
-    os.system(attack1)
-    os.system("rm attack.txt")
+   # attack = 'python3 office2john.py'+ office +'> attack.txt'
+   # os.system(attack)
+   # attack1 = 'python3 office2john.py attack.txt --wordlist=password.txt'
+   # os.system(attack1)
+   # os.system("rm attack.txt")
 
 else:
     os.system("clear")
