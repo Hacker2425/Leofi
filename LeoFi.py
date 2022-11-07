@@ -20,7 +20,7 @@ if os.geteuid() != 0:
     exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'. Exiting.")
 
 if not os.path.isfile('office2john.py'):
-    os.system("https://raw.githubusercontent.com/openwall/john/bleeding-jumbo/run/office2john.py")
+    os.system("wget https://raw.githubusercontent.com/openwall/john/bleeding-jumbo/run/office2john.py")
 
 
 if not os.path.isfile ("passwords.txt"):
